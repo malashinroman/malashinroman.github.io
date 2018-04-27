@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Matching 3D-images and aerospace images in severe conditions with keypoint-based methods"
+date:   2018-04-27 21:43:28 +0300
+categories: source code
+---
+I've made a project page for Core Algorithm for Structural Verification of Keypoint Matches (CSVA).
+I will post an opensource implementation of the algorithm to github soon.
+
+Few years ago I've developed and applied CSVA to several tasks. In every of the following tasks it was much better than any opensource implementation of outlier implementation I was able to find. As soon as I did it during my Phd course I've decided to share the code.
+
+1. Matching of three dimensional indoor scenes (including non-static), 
+1. Retrieval images of 3D-scenes,
+1. Matching aerial and cosmic photographs with strong appearance changes caused by season, day-time and sensor variation. 
+
+CSVA is robust, computationally efficient and can be combined with different detectors and descriptors. Noteworthy, the algorithm is effective with binary descriptors (like BRISK or FREAK), that make it applicable for embedded systems with low computational resources. CSVA allows successful matching images of 3D scenes with only five percent of inliers and matching aerial images with less than one percent of inliers. It can be recommended as a basic algorithm for various tasks.
+
+Here is a [link](https://malashinroman.github.io/CSVA/)
+
